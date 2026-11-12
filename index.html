@@ -262,7 +262,7 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
       <ul class="titik">
         <li>Silabus Pengenalan dan N5 lengkap, plus 2 unit pertama tiap level N4–N1</li>
         <li>Semua ujian gelar, Commoner sampai Emperor</li>
-        <li>Latihan <code>/kuis</code> semua level, Duel Kanji Rabu, dan Tryout JLPT Sabtu</li>
+        <li>Latihan <code>/kuis</code> semua level (termasuk 🏁 Taklukkan deck: kuasai satu deck sampai habis, progres tersimpan), Duel Kanji Rabu, dan Tryout JLPT Sabtu</li>
         <li>Deck khusus <code>/kuis</code> (Kanken 4級 ke atas, Kata sulit, Nama Jepang): contoh seperempat deck, maks. 50 kartu</li>
         <li>Kamus: daftar kata, plus 10 layar detail per hari</li>
         <li>Catatan belajar <code>/log</code>, statistik, target, dan peringkat</li>
@@ -318,7 +318,7 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
         <ul class="titik">
           <li>Bayar hanya ke QRIS yang ditampilkan bot saat <code>/subscribe</code>.</li>
           <li>Setiap order tercatat dan bisa dicek di <code>/subscribe</code> → Pesananku.</li>
-          <li>Staff tidak pernah meminta transfer lewat DM pribadi.</li>
+          <li>Staff tidak pernah meminta pembayaran lewat DM pribadi.</li>
         </ul>
         <p class="muted">Pembayaran dicek manual oleh staff, biasanya kurang dari 24 jam (paling lambat 3×24 jam). Masa member dihitung sejak pembayaran dikonfirmasi.</p>
       </div>
@@ -346,12 +346,12 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
   </div>
   <div class="ketentuan">
 <!-- KETENTUAN:MULAI -->
-<p class="kecil">Berlaku untuk pembelian lewat <code>/subscribe</code> · versi 11 November 2026</p>
+<p class="kecil">Berlaku untuk pembelian lewat <code>/subscribe</code> · versi 12 November 2026</p>
 <h3>Pembayaran</h3>
 <ul>
 <li>Bayar hanya ke QRIS yang ditampilkan bot.</li>
-<li>Staff tidak pernah meminta transfer lewat DM pribadi.</li>
-<li>Transfer ke tempat lain tidak bisa kami proses.</li>
+<li>Staff tidak pernah meminta pembayaran lewat DM pribadi.</li>
+<li>Pembayaran ke tempat lain tidak bisa kami proses.</li>
 <li>Akses aktif setelah staff memverifikasi pembayaranmu.</li>
 </ul>
 <h3>Pengembalian dana</h3>
@@ -361,7 +361,7 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
 </ul>
 <ol>
 <li>Bayar dobel atau lebih: kelebihannya dikembalikan.</li>
-<li>Akses belum aktif 3×24 jam karena salah kami: uang kembali penuh.<small>Ajukan ke staff dengan bukti bayar, maks. 30 hari setelah transfer.</small></li>
+<li>Akses belum aktif 3×24 jam karena salah kami: uang kembali penuh.<small>Ajukan ke staff dengan bukti bayar, maks. 30 hari setelah bayar.</small></li>
 </ol>
 <h3>Companion</h3>
 <ul>
@@ -403,13 +403,13 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
   <div class="section-head">
     <span class="label" style="justify-self:start">Privasi</span>
     <h2>Data apa yang disimpan Kotabi</h2>
-    <p class="muted">Untuk bot Kotabi di server Discord Kotabi · versi 11 November 2026</p>
+    <p class="muted">Untuk bot Kotabi di server Discord Kotabi · versi 12 November 2026</p>
   </div>
   <div class="ketentuan">
 <h3>Yang disimpan</h3>
 <ul>
 <li>ID dan nama Discord-mu, supaya progres dan membership tercatat atas namamu.</li>
-<li>Progres belajar: unit silabus, hasil ujian gelar, catatan <code>/log</code> beserta targetmu, pesan yang kamu simpan dengan 🔖, kartu Hafalanku beserta jadwal ulang dan pengingatnya (kalau kamu nyalakan), pilihan font kuis, keikutsertaanmu di tantangan Kata hari ini, hasil Tryout Sabtu (skor dan lama mengerjakan, disimpan 90 hari; 10 besar tiap level diumumkan di #general dengan nama dan skornya), dan poin musim Duel Kanji Rabu &amp; Tryout Sabtu (poin tiap acara yang kamu ikuti, disimpan 12 bulan; juara dan papan musim bulanan diumumkan di #general dengan nama dan poinnya).</li>
+<li>Progres belajar: unit silabus, hasil ujian gelar, catatan <code>/log</code> beserta targetmu, pesan yang kamu simpan dengan 🔖, kartu Hafalanku beserta jadwal ulang dan pengingatnya (kalau kamu nyalakan), pilihan font kuis, kartu deck yang sudah kamu kuasai di 🏁 Taklukkan deck (bukan jawabanmu per soal), catatan kuis harian (jumlah soal yang kamu jawab, yang benar, dan poinnya per level per hari, disimpan 13 bulan; 10 besar mingguan &amp; bulanan diumumkan di #quiz-arena dengan nama dan poinnya), keikutsertaanmu di tantangan Kata hari ini, hasil Tryout Sabtu (skor dan lama mengerjakan, disimpan 90 hari; 10 besar tiap level diumumkan di #general dengan nama dan skornya), dan poin musim Duel Kanji Rabu &amp; Tryout Sabtu (poin tiap acara yang kamu ikuti, disimpan 12 bulan; juara dan papan musim bulanan diumumkan di #general dengan nama dan poinnya).</li>
 <li>Kuis yang sedang berjalan (soal, skor, dan pesertanya), supaya bisa dilanjutkan kalau bot dimulai ulang. Dihapus saat kuisnya selesai; kuis yang terhenti dan tidak dilanjutkan dibuang saat bot dimulai ulang setelah lewat 24 jam.</li>
 <li>Riwayat kamus: 10 entri terakhir yang kamu buka di tiap kamus (<code>/kotoba</code>, <code>/kanji</code>, <code>/bunpou</code>), hanya untuk saran di kolom pencarianmu sendiri. Kata yang kamu ketik di kolom pencarian tidak disimpan.</li>
 <li>Catatan jatah kamus: berapa layar detail dan halaman daftar kamus yang kamu buka tiap jam, bukan kata apa yang kamu buka. Disimpan 7 hari, untuk jatah harian gratis dan mencegah isi kamus disalin besar-besaran. Kalau polanya tidak wajar (ratusan dalam sehari), staff diberi tahu.</li>
@@ -419,8 +419,9 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
 <li>Skor papan apresiasi: jumlah reaksi 🧎 di pesanmu.</li>
 <li>Tanggal kamu bergabung ke server, untuk menyambut warga baru dan mengingatkan sekali kalau belum mencoba bot.</li>
 <li>Catatan pemakaian bot: nama perintah yang kamu pakai (misalnya <code>/kotoba</code>) dan waktunya, bukan kata yang kamu cari. Disimpan 90 hari.</li>
+<li>Kelas intensif yang kamu minati lewat tombol 🔔 Kabari kelas intensif. Dihapus setelah kamu dikabari bahwa kelasnya dibuka (satu DM), atau saat kamu membatalkannya.</li>
 <li>Status dan riwayat membership, termasuk klaim <code>/trial</code>.</li>
-<li>Data pembelian: paket, nominal, bank pengirim, dan tautan gambar bukti transfer yang kamu kirim, beserta "sidik jari" gambarnya untuk mendeteksi bukti yang dipakai ulang.</li>
+<li>Data pembelian: paket, nominal, bank/e-wallet pengirim, dan tautan gambar bukti bayar yang kamu kirim, beserta "sidik jari" gambarnya untuk mendeteksi bukti yang dipakai ulang.</li>
 </ul>
 <h3>Yang tidak disimpan</h3>
 <ul>
@@ -434,7 +435,7 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
 <li>Yang memang untuk dilihat warga lain tampil dengan namamu: catatan <code>/log</code> di #immersion-log, kelulusan ujian gelar (#honor-board dan #general), member baru (#honor-board), hasil Tryout, juara Duel, dan peserta Kata hari ini (#general), serta papan apresiasi, peringkat <code>/log</code>, dan daftar pemegang gelar.</li>
 <li>Pemilik dan admin Kotabi bisa melihat ringkasan pemakaian per warga (perintah yang dipakai dan kapan), misalnya untuk membantu warga baru yang belum mencoba bot.</li>
 <li>Tidak dijual dan tidak dipakai untuk iklan.</li>
-<li>Bukti transfer hanya dilihat staff yang memverifikasi pembayaran.</li>
+<li>Bukti bayar hanya dilihat staff yang memverifikasi pembayaran.</li>
 </ul>
 <h3>Layanan lain yang terlibat</h3>
 <ul>
@@ -444,16 +445,16 @@ footer .sosmed { display: flex; gap: 18px; flex-wrap: wrap; font-weight: 700; co
 </ul>
 <h3>Keamanan</h3>
 <ul>
-<li>Database ada di server pribadi Kotabi dan dicadangkan berkala, termasuk sebelum setiap pembaruan bot.<small>Cadangan hanya dipegang pemilik Kotabi.</small></li>
+<li>Database ada di server pribadi Kotabi dan dicadangkan berkala, termasuk sebelum setiap pembaruan bot.<small>Cadangan hanya dipegang pemilik Kotabi dan disimpan paling lama 12 bulan, lalu dihapus.</small></li>
 </ul>
 <h3>Menghapus data</h3>
 <ul>
-<li>Minta ke staff di server. Data progres, simpanan (termasuk Hafalanku dan riwayat kamus), dan catatan pemakaianmu dihapus.</li>
+<li>Minta ke staff di server. Data progres, simpanan (termasuk Hafalanku, riwayat kamus, dan minat kelas intensif), dan catatan pemakaianmu dihapus.</li>
 <li>Data pembelian dan membership, termasuk klaim <code>/trial</code>, tetap disimpan sebagai bukti transaksi dan supaya trial tidak bisa diambil ulang.</li>
 <li>Sebagai pengaman, catatan jatah kamus 7 hari terakhir dan masa tunggu ujian gelar yang masih berjalan juga tetap disimpan. Catatan jatah kamus terhapus sendiri setelah 7 hari.</li>
 <li>Laporan kesalahan yang pernah kamu kirim dan hitungan ujian gelar untuk statistik tetap ada, tanpa namamu.</li>
 <li>Yang tidak ikut terhapus: role di Discord dan role warnamu (dicabut terpisah kalau perlu), serta pesanmu yang disimpan warga lain dengan 🔖 (itu simpanan mereka).</li>
-<li>Cadangan database yang dibuat sebelum penghapusan masih memuat datamu, dan hanya dipegang pemilik Kotabi.</li>
+<li>Cadangan database yang dibuat sebelum penghapusan masih memuat datamu sampai cadangan itu dihapus (paling lama 12 bulan), dan hanya dipegang pemilik Kotabi.</li>
 </ul>
 <p class="kecil">Kebijakan ini bisa diperbarui dan akan diumumkan di server.</p>
   </div>
